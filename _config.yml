@@ -4,16 +4,3 @@ description: Welcome to my Jekyll site
 
 # Tema
 theme: jekyll-theme-modernist
-
-# Renk Özelleştirmeleri (CSS ile kullanılabilir)
-custom_colors:
-  primary: "#3498db"   # Mavi
-  secondary: "#e74c3c" # Kırmızı
-  background: "#f4f4f9" # Açık Gri
-  text: "#333"         # Koyu Gri
-
-# Düzeni Basitleştir
-permalink: /:title/
-
-# Gereksiz Eklentileri Kaldır
-plugins: []
