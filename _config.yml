@@ -1,50 +1,26 @@
 # Site Ayarları
 title: My Jekyll Site
 description: Welcome to my Jekyll site
-baseurl: "" # Alt dizin kullanıyorsan belirt
 
-# Tema ve Düzen
+# Tema ve Renk Özelleştirmeleri
 theme: jekyll-theme-modernist
 
-# Yazar Bilgileri
-author:
-  name: "Cihat Emre Karataş"
-  email: "your-email@example.com"
-  github: "your-github-profile"
+# Stil Özelleştirmeleri
+sass:
+  style: compressed
 
-# SEO Ayarları
-permalink: /:categories/:title/
-paginate: 5 # Ana sayfada gösterilecek yazı sayısı
-exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+# Özel Değişkenler
+custom_colors:
+  primary: "#3498db"  # Ana Renk (Mavi)
+  secondary: "#e74c3c"  # İkincil Renk (Kırmızı)
+  background: "#f4f4f9"  # Arka Plan Rengi
+  text: "#333"  # Metin Rengi
 
-# Sosyal Medya Bağlantıları
-social_links:
-  - name: GitHub
-    url: "https://github.com/yourusername"
-  - name: LinkedIn
-    url: "https://linkedin.com/in/yourusername"
-  - name: Twitter
-    url: "https://twitter.com/yourusername"
+# Düzeni Temiz Tut
+permalink: /:title/
+paginate: 6
 
-# Eklentiler
+# Basit Eklentiler
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-assets
-  - jekyll-archives
-
-# Markdown Ayarları
-markdown: kramdown
-highlighter: rouge
-
-# Varsayılan Sayfa Düzeni
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Cihat Emre Karataş"
-
+  - jekyll-seo-tag
