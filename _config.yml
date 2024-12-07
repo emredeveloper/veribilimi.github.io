@@ -1,8 +1,3 @@
-# Site Ayarları
-title: My Jekyll Blog
-description: Welcome to my blog site
-theme: jekyll-theme-modernist
-
-# URL Ayarları
-url: "https://emredeveloper.github.io"  # Site adresi
-baseurl: "veribilimi.github.io"  # Repository adı boş bırakıldı
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
