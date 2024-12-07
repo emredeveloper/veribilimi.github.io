@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "İlk Blog Yazım"
+title: "İlk Blogum"
 date: 2024-12-07
+categories: blog
 ---
 
-# Merhaba Dünya!  
-Bu benim ilk blog yazım. Jekyll ile modern bir blog sitesi oluşturuyorum.  
+# İlk Blog Yazım  
+
+Bu benim ilk blog yazım. Jekyll ile blog oluşturmayı öğreniyorum!
