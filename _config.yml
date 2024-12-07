@@ -2,25 +2,18 @@
 title: My Jekyll Site
 description: Welcome to my Jekyll site
 
-# Tema ve Renk Özelleştirmeleri
+# Tema
 theme: jekyll-theme-modernist
 
-# Stil Özelleştirmeleri
-sass:
-  style: compressed
-
-# Özel Değişkenler
+# Renk Özelleştirmeleri (CSS ile kullanılabilir)
 custom_colors:
-  primary: "#3498db"  # Ana Renk (Mavi)
-  secondary: "#e74c3c"  # İkincil Renk (Kırmızı)
-  background: "#f4f4f9"  # Arka Plan Rengi
-  text: "#333"  # Metin Rengi
+  primary: "#3498db"   # Mavi
+  secondary: "#e74c3c" # Kırmızı
+  background: "#f4f4f9" # Açık Gri
+  text: "#333"         # Koyu Gri
 
-# Düzeni Temiz Tut
+# Düzeni Basitleştir
 permalink: /:title/
-paginate: 6
 
-# Basit Eklentiler
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Gereksiz Eklentileri Kaldır
+plugins: []
