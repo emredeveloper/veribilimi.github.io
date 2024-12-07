@@ -1,1 +1,1 @@
-# veribilimi.github.io
+Bu sitede veri bilimi ile alakalı paylaşımlarımı göreceksiniz
