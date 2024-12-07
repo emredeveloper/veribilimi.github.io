@@ -2,7 +2,6 @@
 layout: post
 title: "İlk Blogum"
 date: 2024-12-07
-categories: blog
 ---
 
 # İlk Blog Yazım  
