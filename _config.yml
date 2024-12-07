@@ -1,10 +1,11 @@
+# Site Temel Ayarları
 title: My Jekyll Blog
 description: Welcome to my blog site
 theme: jekyll-theme-modernist
 
-# Site Ayarları
+# Site Bağlantı Ayarları
 url: "https://emredeveloper.github.io"  # Site adresi
-baseurl: "/ilk-blogum"  # Repository adı
+baseurl: ""  # Repository adı boş bırakıldı
 
 # Yayın Bağlantısı Ayarları
-permalink: /:categories/:title/
+permalink: /:title/  # Daha sade bağlantı
