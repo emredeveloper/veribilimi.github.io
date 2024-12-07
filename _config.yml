@@ -1,3 +1,50 @@
+# Site Ayarları
 title: My Jekyll Site
 description: Welcome to my Jekyll site
+baseurl: "" # Alt dizin kullanıyorsan belirt
+
+# Tema ve Düzen
 theme: jekyll-theme-modernist
+
+# Yazar Bilgileri
+author:
+  name: "Cihat Emre Karataş"
+  email: "your-email@example.com"
+  github: "your-github-profile"
+
+# SEO Ayarları
+permalink: /:categories/:title/
+paginate: 5 # Ana sayfada gösterilecek yazı sayısı
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+
+# Sosyal Medya Bağlantıları
+social_links:
+  - name: GitHub
+    url: "https://github.com/yourusername"
+  - name: LinkedIn
+    url: "https://linkedin.com/in/yourusername"
+  - name: Twitter
+    url: "https://twitter.com/yourusername"
+
+# Eklentiler
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-assets
+  - jekyll-archives
+
+# Markdown Ayarları
+markdown: kramdown
+highlighter: rouge
+
+# Varsayılan Sayfa Düzeni
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Cihat Emre Karataş"
+
