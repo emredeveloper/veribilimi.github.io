@@ -11,7 +11,7 @@ Bu, Jekyll sitemin ana sayfasıdır. En son blog yazılarımı aşağıda göreb
 
 ## Blog Yazıları  
 {% for post in site.posts %}
-- **[{{ post.title }}]({{ post.url }})**  
+- **[{{ post.title }}]({{ post.url | relative_url }})**  
   *{{ post.date | date: "%d %B %Y" }}*  
   {{ post.excerpt }}
 {% endfor %}
