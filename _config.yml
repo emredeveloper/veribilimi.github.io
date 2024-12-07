@@ -6,4 +6,3 @@ theme: jekyll-theme-modernist
 # URL Ayarları
 url: "https://emredeveloper.github.io"  # Site adresi
 baseurl: ""  # Repository adı boş bırakıldı
-permalink: /:title/
